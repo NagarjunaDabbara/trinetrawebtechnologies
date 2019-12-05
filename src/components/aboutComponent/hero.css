@@ -1,0 +1,8 @@
+.defaultHero,
+.roomsHero {
+  min-height: calc(60vh - 66px);
+  background: url("https://image.freepik.com/free-vector/abstract-metallic-red-black-frame-layout-design-tech-innovation-concept-background_71775-20.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

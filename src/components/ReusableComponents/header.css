@@ -1,0 +1,168 @@
+/* reset */
+html,body,div,strong,nav ul,nav li,h5{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ header, menu, nav {display: block;}
+
+
+/* start editing from here */
+a{text-decoration:none;}
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+.top-hader{
+	background:#f4f4f4;
+	padding: 10px 0px;
+}
+.top-header-left{
+	float:left;
+}
+.top-header-left p,.top-header-right p{
+	color:#000;
+	font-size:0.6em;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.top-header-right{
+	float:right;
+}
+.top-header-right p a{
+	color:#fff;
+	-webkit-transition: all .9s;
+	-moz-transition: all .9s;
+	-o-transition: all .9s;
+	-ms-transition: all .9s;
+	transition: all .9s;
+}
+.top-header-right p a:hover{
+	color:#fff;
+}
+/*----main-header----*/
+.main-header{
+	background:#fff;
+	padding: 17px 0px 22px 0px;
+}
+.logo{
+	float:left;
+}
+.top-nav{
+	float:right;
+	margin-top: 15.5px;
+}
+.top-nav ul li{
+	display:inline-block;
+}
+.top-nav ul li a{
+  color:#000;
+  text-decoration: none;
+	font-size:1.5em;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	padding: 0px 27px;
+	-webkit-transition: all .9s;
+	-moz-transition: all .9s;
+	-o-transition: all .9s;
+	-ms-transition: all .9s;
+	transition: all .9s;
+}
+.top-nav ul li a:hover{
+	color:#1f9cc4;
+}
+i.line {
+	width: 100%;
+	height: 3px;
+	background: url(../assets/line.png) 0px 0px;
+	display: block;
+}
+/*------responive-design--------*/
+@media screen and (max-width: 1366px)	{
+	.wrap{
+		width:90%;
+	}
+}
+@media screen and (max-width:1280px)	{
+	.wrap{
+		width:90%;
+	}
+	
+}
+@media screen and (max-width:1024px)	{
+	.wrap{
+		width:90%;
+	}
+	
+	.top-nav ul li a {
+		padding: 0px 18px;
+	}
+	
+}
+@media screen and (max-width:800px){
+	.wrap{
+		width:90%;
+	}
+	.logo,.top-nav{
+		float:none;
+		text-align:center;
+	}
+	.top-nav ul li a {
+		padding: 0px 12px;
+	}
+
+}
+@media screen and (max-width:768px){
+.grid {
+    width: 50%;
+    margin-top: 2em;
+}
+
+}
+
+@media screen and (max-width:640px){
+	.wrap{
+		width:90%;
+	}
+	
+}
+
+@media screen and (max-width:414px){
+.top-nav ul li a {
+    padding: 0px 5px;
+}
+}
+@media screen and (max-width:384px){
+.top-nav ul li a {
+    padding: 0px 2px;
+}
+.top-header-left {
+    float: none;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.top-header-right {
+    float: none;
+    text-align: center;
+}
+.top-nav ul li a {
+    font-size: 0.75em;
+}
+}
+@media screen and (max-width:320px){
+
+.wrap {
+    width: 94%;
+}
+
+}
