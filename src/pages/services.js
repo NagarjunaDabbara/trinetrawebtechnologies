@@ -82,7 +82,7 @@ export default class services extends Component {
         </div>
       </div>
       
-      <img src="http://connectionface.com/wp-content/uploads/2019/06/connectionface-_2_.gif" alt="Nature" className="responsive" width="600" height="400"/>
+      <img src="http://www.brandmommy.com/wp-content/uploads/2016/09/Web-Development-1.png" alt="Nature" className="responsive" width="600" height="400"/>
        <i className="line"> </i>
       <Footer/>
           </div>
