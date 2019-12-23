@@ -69,7 +69,7 @@ export default class footer extends Component {
         href="" target="_blank"
         className="generic-anchor footer-list-anchor"
       >
-       ANANYAENGNEERS
+       ANANYAENGINEERS
       </a>
     </li>
     <li>
