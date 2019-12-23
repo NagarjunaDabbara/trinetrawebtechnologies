@@ -22,7 +22,7 @@ export default class
                 <div className=" how-grid">
                   <h3 className="mt-3">Research & Plan</h3>
                   <h5>We Understand User Requirement</h5>
-                  <strong> <p  className="mt-3">A thorough research is carried out based on the requirements and strategies are planned according to those!</p></strong>
+                  <strong> <h5  className="mt-3">A thorough research is carried out based on the requirements and strategies are planned according to those!</h5></strong>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ export default class
                 <div className="how-grid">
                   <h3 className="mt-3">Design & Develop </h3>
                   <h5>We Craft Based On The Requirement</h5>
-                  <strong> <p className="mt-3">Our creative designing and developing team takes the full responsibility and gives you a creative outcome!</p></strong>
+                  <strong> <h5 className="mt-3">Our creative designing and developing team takes the full responsibility and gives you a creative outcome!</h5></strong>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default class
                 <div className="how-grid">
                   <h3 className="mt-3">Test & Delivery</h3>
                   <h5>We Deliver A Fruit Full Product</h5>
-                  <strong><p className="mt-3">The outcome is tested for errors by our team and the fruitful product will be delivered to you!</p></strong>
+                  <strong><h5 className="mt-3">The outcome is tested for errors by our team and the fruitful product will be delivered to you!</h5></strong>
                 </div>
               </div>
             </div>
